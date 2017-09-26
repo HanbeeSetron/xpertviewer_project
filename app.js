@@ -1,6 +1,6 @@
 var express = require('express');
 var http = require('http');
-var app = expree();
+var app = express();
 
 app.set('port', process.env.PORT|3001);
 app.get('/', function(req, res){
